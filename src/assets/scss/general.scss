@@ -1,0 +1,10 @@
+*,
+*::after{
+  box-sizing: border-box;
+}
+*::before,
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "jost", "Arial",sans-serif;
+}
