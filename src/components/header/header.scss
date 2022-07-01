@@ -1,0 +1,71 @@
+@import "../../assets/scss/variables";
+// @import "../../assets/img/Vector.svg"
+
+.header-wrapper{
+  display: flex;
+  width: 825px;
+  background-color:  #373F68;
+  border-radius: $radius;
+}
+
+.header-img{
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: 24px;
+}
+
+.header-title{
+  margin-top: 23px;
+  margin-bottom: 23px;
+  margin-left: 16px;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 26px;
+  color: #fff;
+  letter-spacing: -0.25px;
+}
+
+.select-wrapper{
+  display: flex;
+  margin-top: 26px;
+  margin-right: 273px;
+  margin-bottom: 26px;
+  margin-left: 38px;
+  background-color: #373F68;
+}
+
+.header-text{
+  margin: 0 auto; 
+  color: #F2F4FE;
+  font-style: Mixed;
+  font-size: 14px;
+  line-height: 20px;
+}
+.header-text:active{
+  opacity: 0.75;
+}
+
+.header-select{
+  width: 8px;
+  height: 8px;
+  margin-left: 9px;
+  border:none;
+}
+
+.header-btn{
+  width: 158px;
+  height: 44px;
+  margin: 14px 16px 14px 0;
+  font-style: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color:#F2F4FE;
+  background-color: #AD1FEA;
+  border-radius: $radius;
+  border:none;
+}
+
+.header-btn:active{
+  background-color: #C75AF6;
+}
+
