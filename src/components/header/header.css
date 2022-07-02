@@ -1,22 +1,20 @@
-@import "../../assets/scss/variables";
-
-
-.header-wrapper{
+.header-wrapper {
+  margin-bottom: px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 825px;
-  background-color:  #373F68;
-  border-radius: $radius;
-  margin-bottom: 24px;
-  
+  background-color: #373F68;
+  border-radius: 10px;
 }
 
-.header-img{
+.header-img {
   margin-top: 24px;
   margin-bottom: 24px;
   margin-left: 24px;
 }
 
-.header-title{
+.header-title {
   margin-top: 23px;
   margin-bottom: 23px;
   margin-left: 16px;
@@ -27,7 +25,9 @@
   letter-spacing: -0.25px;
 }
 
-.select-wrapper{
+.select-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 26px;
   margin-right: 273px;
@@ -36,38 +36,39 @@
   background-color: #373F68;
 }
 
-.header-text{
-  margin: 0 auto; 
+.header-text {
+  margin: 0 auto;
   color: #F2F4FE;
   font-style: Mixed;
   font-size: 14px;
   line-height: 20px;
 }
-.header-text:active{
+
+.header-text:active {
   opacity: 0.75;
 }
 
-.header-select{
+.header-select {
   width: 8px;
   height: 8px;
   margin-left: 9px;
-  border:none;
+  border: none;
 }
 
-.header-btn{
+.header-btn {
   width: 158px;
   height: 44px;
   margin: 14px 16px 14px 0;
   font-style: 700;
   font-size: 14px;
   line-height: 20px;
-  color:#F2F4FE;
+  color: #F2F4FE;
   background-color: #AD1FEA;
-  border-radius: $radius;
-  border:none;
+  border-radius: 10px;
+  border: none;
 }
 
-.header-btn:active{
+.header-btn:active {
   background-color: #C75AF6;
 }
-
+/*# sourceMappingURL=header.css.map */

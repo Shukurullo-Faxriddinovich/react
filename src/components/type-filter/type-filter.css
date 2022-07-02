@@ -1,0 +1,18 @@
+.type-filter {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 14px 8px;
+  margin-bottom: 24px;
+}
+
+.type-filter__radio:checked + .type-filter__styled-radio {
+  color: #fff;
+  background-color: #4661E6;
+}
+/*# sourceMappingURL=type-filter.css.map */

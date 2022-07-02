@@ -8,6 +8,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: 14px 8px;
+
+  margin-bottom: 24px;
 }
 
 .type-filter__radio:checked + .type-filter__styled-radio{

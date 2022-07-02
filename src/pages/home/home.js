@@ -4,6 +4,7 @@ import TypeFilter from "../../components/type-filter/type-filter";
 import Roadmap from "../../components/roadmap/roadmap";
 import { Link } from "react-router-dom"
 import Header from "../../components/header/header";
+import Body from "../../components/site-body/site-body"
 
 import "./home.scss";
 
@@ -18,6 +19,7 @@ const Home = () => {
         </div>
         <div className="home-right">
           <Header />
+          <Body />
         </div>
         
       </Container>

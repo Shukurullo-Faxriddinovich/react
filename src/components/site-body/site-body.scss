@@ -1,0 +1,85 @@
+@import "../../assets/scss/variables";
+
+.body-card-wrapper{
+  padding: 28px 32px 34px 32px;
+  display: flex;
+  background-color: #fff;
+  border-radius: $radius;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.feadback-card{
+  width: 40px;
+  padding: 14px 9px 8px 9px;
+  margin-right: 40px;
+  background-color: #F2F4FE;
+  border-radius: $radius;
+}
+
+.feadback-img{
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+
+.feadback-number{
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: -0.18px;
+  color:#3A4374;
+}
+
+.body-sub-wrapper{
+  width: 476px;
+  margin-right: 160px;
+}
+
+.body-title{
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  margin-bottom: 4px;
+}
+
+.body-text{
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #647196;
+  margin-bottom: 12px;
+}
+
+.comment-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.comment-img{
+  width: 18px;
+  height: 16px; 
+  margin-right: 8px;
+}
+
+.comment-number{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: -0.22px;
+  color:#3A4374;
+}
+
+.comment-number6{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: -0.22px;
+  color:#3A4374;
+  opacity: 50%;
+}

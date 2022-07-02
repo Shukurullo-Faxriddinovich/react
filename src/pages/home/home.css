@@ -1,0 +1,17 @@
+.home {
+  padding: 94px 0 129px;
+}
+
+.home_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home-left {
+  width: 255px;
+}
+/*# sourceMappingURL=home.css.map */

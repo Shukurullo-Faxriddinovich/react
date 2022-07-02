@@ -1,0 +1,20 @@
+.type-badge {
+  display: inline-block;
+  padding: 5px 16px;
+  color: #4661E6;
+  background-color: #F2F4FF;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.type-badge:hover {
+  background-color: #CFD7FF;
+}
+
+.type-badge:active {
+  color: #fff;
+  background-color: #4661E6;
+}
+/*# sourceMappingURL=type-badge.css.map */
