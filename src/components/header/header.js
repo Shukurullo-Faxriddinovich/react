@@ -3,6 +3,8 @@ import "./header.scss";
 import vector from "../../assets/img/Vector.svg" 
 import top from "../../assets/img/select-top.svg"
 
+import AddBtn from "../add-btn/add-btn";
+
 const Header = () =>{
   return(
     <div className="header-wrapper">
@@ -18,7 +20,7 @@ const Header = () =>{
           <option className="header-option">Least Comments</option>  
         </select>  
       </div>
-      <button className="header-btn">+ Add Feedback</button>  
+       <AddBtn to="/new-feadback">+ Add Feedback</AddBtn>
     </div>
   )
 }

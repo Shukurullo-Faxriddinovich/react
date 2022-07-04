@@ -3,6 +3,7 @@ import Feadback from "../site-body-feadback-btn/site-body-feadback";
 import TypeBadge from "../type-badge/type-badge";
 import top from "../../assets/img/^.svg";
 import "./site-body.scss"
+import Data from "../../data";
 
 
 const Body = () => {
